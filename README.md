@@ -20,7 +20,8 @@ bert4keras==0.10.6</br>
 &emsp; &emsp; 英文数据集采用BERT-Base, Cased</br>
 2.构建数据集</br>
 &emsp; &emsp;中文：将下载的信息抽取任务数据集放到data/baidu/文件夹下</br>
-&emsp; &emsp;英文：将下载的NYT数据集放到data/NYT/raw_NYT/文件夹下，运行generate.py生成train_data.json、valid_data.json和test_data.json</br>
+&emsp; &emsp;英文：将下载的NYT数据集放到data/NYT/raw_NYT/文件夹下，
+&emsp; &emsp;运行generate.py生成train_data.json、valid_data.json和test_data.json</br>
 3.训练模型
 ```
 python relation_extraction_train.py
@@ -29,3 +30,5 @@ python relation_extraction_train.py
 ```
 python relation_extraction_predict.py
 ```
+# 模型展示
+![image](https://github.com/dreams-flying/relation_extraction-baseline/blob/master/images/demo.png)
