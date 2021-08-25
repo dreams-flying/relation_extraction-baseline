@@ -4,6 +4,7 @@ Python==3.6</br>
 tensorflow==1.14.0</br>
 keras==2.3.1</br>
 bert4keras==0.10.6</br>
+笔者使用了开源的bert4keras，一个keras版的transformer模型库。bert4keras的更多介绍参见[这里](https://github.com/bojone/bert4keras)。
 # 项目目录
 ├── bert4keras</br>
 ├── data &emsp; &emsp;存放数据</br>
